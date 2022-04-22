@@ -121,7 +121,7 @@ class GoogleProvider(Provider):
         self.hass = hass
         self._lang = conf[CONF_LANG]
         self._delay = conf[CONF_DELAY]
-        self.name = "Google"
+        self.name = "Google (custom)"
 
     @property
     def default_language(self):
